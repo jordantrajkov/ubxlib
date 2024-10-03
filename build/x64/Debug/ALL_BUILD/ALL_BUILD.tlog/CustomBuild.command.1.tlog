@@ -1,0 +1,10 @@
+^C:\USERS\JORDANTRAJKOV\DESKTOP\UBXLIBSARA\UBXLIB\PORT\PLATFORM\WINDOWS\MCU\WIN32\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

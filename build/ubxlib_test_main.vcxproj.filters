@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\app\u_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\mcu\win32\runner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_at_client_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_at_client_test_data.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_timeout_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_location_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_location_test_shared_cfg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_mqtt_client_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_http_client_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_security_credential_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_security_credential_test_data.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_security_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_security_tls_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_sock_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ubx_protocol_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_spartn_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_spartn_test_data.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_utils_test_linked_list.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_utils_test_mempool.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_utils_test_ringbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_geofence_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_geofence_test_data.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_geofence_test_kml_doc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_short_range_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_short_range_test_pbuf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_short_range_test_preamble.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_short_range_test_private.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_bond_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_cfg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_nus_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_sps_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_ble_test_private.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_captive_portal_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_cfg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_geofence_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_loc_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_mqtt_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_sock_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_wifi_test_private.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_cfg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_file_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_fota_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_geofence_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_gpio_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_http_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_info_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_loc_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_mqtt_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_mux_private_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_mux_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_net_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_ppp_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_pwr_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_sec_tls_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_sim_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_sock_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_test_preamble.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_test_private.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cell_time_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_cfg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_dec_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_geofence_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_info_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_mga_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_msg_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_pos_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_private_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_pwr_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_test_private.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_gnss_util_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_test_util_resource_check.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_cleanup_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_postamble_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_preamble_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_port_gatt_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_port_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_device_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_network_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_network_test_shared_cfg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\credentials_tls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_dtls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_ppp_espidf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_ppp_linux.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_ppp_zephyr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_tls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\psk_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\mqtt_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\http_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_cell_locate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_gnss.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_gnss_cell.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_gnss_cell_continuous.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_gnss_cloud_locate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\main_loc_gnss_continuous.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\lte_cfg_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\cell_power_saving_3gpp_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\cell_power_saving_e_drx_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\assist_now_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\cfg_val_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\dec_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\geofence_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\msg_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\pos_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\c030_module_fw_update_main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.dir\$(Configuration)\u_runner.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{E371D3CE-AA8B-3827-9E09-96B4FDAB0B9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61AB79D8-4A60-3222-8D40-EEFBA89A536C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

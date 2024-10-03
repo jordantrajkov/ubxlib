@@ -16,6 +16,7 @@
 
 #ifndef _U_CELL_PWR_H_
 #define _U_CELL_PWR_H_
+#include "u_cell_net.h"
 
 /* Only header files representing a direct and unavoidable
  * dependency between the API of this module and the API

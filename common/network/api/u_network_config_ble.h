@@ -17,6 +17,7 @@
 #ifndef _U_NETWORK_CONFIG_BLE_H_
 #define _U_NETWORK_CONFIG_BLE_H_
 
+#include "u_network_type.h"
 /* Only header files representing a direct and unavoidable
  * dependency between the API of this module and the API
  * of another module should be included here; otherwise

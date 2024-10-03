@@ -1,0 +1,9 @@
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/ubxlib.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/ubxlib_test.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/ubxlib_test_main.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/INSTALL.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/unity/CMakeFiles/unity.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/unity/CMakeFiles/INSTALL.dir
+C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/unity/CMakeFiles/ALL_BUILD.dir

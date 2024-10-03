@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\c4768901c408d44371d545676246d3c8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BCCA1EF0-3446-3DB4-AA33-778E47A6B437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

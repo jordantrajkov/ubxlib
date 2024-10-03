@@ -1,0 +1,1760 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ubxlib_test.dir/Release/u_at_client_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_at_client_test_data.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_timeout_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_location_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_location_test_shared_cfg.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_mqtt_client_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_http_client_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_security_credential_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_security_credential_test_data.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_security_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_security_tls_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_sock_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ubx_protocol_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_spartn_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_spartn_test_data.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_utils_test_linked_list.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_utils_test_mempool.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_utils_test_ringbuffer.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_geofence_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_geofence_test_data.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_geofence_test_kml_doc.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_short_range_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_short_range_test_pbuf.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_short_range_test_preamble.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_short_range_test_private.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_bond_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_cfg_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_nus_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_sps_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_ble_test_private.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_captive_portal_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_cfg_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_geofence_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_loc_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_mqtt_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_sock_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_wifi_test_private.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_cfg_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_file_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_fota_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_geofence_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_gpio_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_http_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_info_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_loc_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_mqtt_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_mux_private_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_mux_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_net_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_ppp_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_pwr_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_sec_tls_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_sim_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_sock_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_test_preamble.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_test_private.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cell_time_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_cfg_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_dec_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_geofence_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_info_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_mga_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_msg_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_pos_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_private_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_pwr_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_test_private.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_gnss_util_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_test_util_resource_check.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_cleanup_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_postamble_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_preamble_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_port_gatt_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_port_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_device_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_network_test.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_network_test_shared_cfg.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/credentials_tls.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_dtls.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_ppp_espidf.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_ppp_linux.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_ppp_zephyr.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_tls.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/psk_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/mqtt_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/http_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_cell_locate.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_gnss.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_gnss_cell.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_gnss_cell_continuous.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_gnss_cloud_locate.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/main_loc_gnss_continuous.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/lte_cfg_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/cell_power_saving_3gpp_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/cell_power_saving_e_drx_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/assist_now_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/cfg_val_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/dec_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/geofence_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/msg_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/pos_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/c030_module_fw_update_main.obj"
+		},
+		{
+			"path" : "ubxlib_test.dir/Release/u_runner.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/windows.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /WX- /WX- /W3 /MD /O2 /Ob2 /DNDEBUG -std:c++20"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/J"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/WX"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4068"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4090"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4838"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4061"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4309"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd5045"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4200"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4312"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4311"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4477"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DUNITY_NORETURN="
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DU_AT_CLIENT_PRINT_WITH_TIMESTAMP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/api"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/api"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/api"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/device/api"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/api"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/api"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/api"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/sock/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/timeout/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/mqtt_client/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/http_client/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/sock/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/ubx_protocol/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/spartn/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/test"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/test_util"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/runner"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/error/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/assert/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/timeout/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/mqtt_client/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/http_client/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/ubx_protocol/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/spartn/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/dns/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/debug_utils/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cfg"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/type/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/api"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/assert/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/timeout/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/mqtt_client/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/http_client/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/sock/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/ubx_protocol/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/spartn/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/dns/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/debug_utils/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/event_queue"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/mutex_debug"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/log_ram"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/device/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/src/lib_mga"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/geographiclib/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/geographiclib/include/GeographicLib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/cfg"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/clib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ubxlib_test::@6890427a1f51a3e7e1df",
+	"name" : "ubxlib_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/test/u_at_client_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/test/u_at_client_test_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/timeout/test/u_timeout_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/test/u_location_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/test/u_location_test_shared_cfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/mqtt_client/test/u_mqtt_client_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/http_client/test/u_http_client_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/test/u_security_credential_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/test/u_security_credential_test_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/test/u_security_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/security/test/u_security_tls_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/sock/test/u_sock_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/ubx_protocol/test/u_ubx_protocol_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/spartn/test/u_spartn_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/spartn/test/u_spartn_test_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/test/u_utils_test_linked_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/test/u_utils_test_mempool.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/utils/test/u_utils_test_ringbuffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/test/u_geofence_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/test/u_geofence_test_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/geofence/test/u_geofence_test_kml_doc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/test/u_short_range_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/test/u_short_range_test_pbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/test/u_short_range_test_preamble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/short_range/test/u_short_range_test_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_bond_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_cfg_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_nus_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_sps_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/ble/test/u_ble_test_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_captive_portal_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_cfg_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_geofence_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_loc_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_mqtt_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_sock_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/wifi/test/u_wifi_test_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_cfg_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_file_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_fota_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_geofence_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_gpio_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_http_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_info_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_loc_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_mqtt_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_mux_private_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_mux_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_net_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_ppp_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_pwr_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_sec_tls_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_sim_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_sock_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_test_preamble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_test_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/test/u_cell_time_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_cfg_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_dec_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_geofence_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_info_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_mga_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_msg_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_pos_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_private_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_pwr_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_test_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/test/u_gnss_util_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/test_util/u_test_util_resource_check.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/test/u_cleanup_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/test/u_postamble_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/test/u_preamble_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/test/u_port_gatt_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/test/u_port_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/device/test/u_device_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/test/u_network_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/test/u_network_test_shared_cfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/credentials_tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main_dtls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main_ppp_espidf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main_ppp_linux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main_ppp_zephyr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/sockets/main_tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/security/psk_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/mqtt_client/mqtt_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/http_client/http_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_cell_locate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_gnss.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_gnss_cell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_gnss_cell_continuous.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_gnss_cloud_locate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/location/main_loc_gnss_continuous.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/cell/lte_cfg/lte_cfg_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/cell/power_saving/cell_power_saving_3gpp_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/cell/power_saving/cell_power_saving_e_drx_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/assist_now_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/cfg_val_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/dec_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/geofence_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/msg_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/gnss/pos_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/example/utilities/c030_module_fw_update/c030_module_fw_update_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/common/runner/u_runner.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

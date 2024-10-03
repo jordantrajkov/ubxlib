@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BF8865B-CC96-362F-8FD3-84B640FB23C9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\api;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\mcu\win32\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeSystem.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\windows.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\ubxlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeSystem.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\windows.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\ubxlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeSystem.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\windows.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\ubxlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\3.30.3\CMakeSystem.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\windows.cmake;C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\ubxlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ZERO_CHECK.vcxproj">
+      <Project>{7F69317E-4034-3009-AB7A-ABD605E19C85}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib.vcxproj">
+      <Project>{AA699211-AFE7-31EB-B93B-83F5F6D8FD58}</Project>
+      <Name>ubxlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test.vcxproj">
+      <Project>{1428830B-C4E5-336F-84E5-A93F96F4571B}</Project>
+      <Name>ubxlib_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\ubxlib_test_main.vcxproj">
+      <Project>{113D3C98-8345-30C1-AAF9-ACC496E71C3F}</Project>
+      <Name>ubxlib_test_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\build\unity\unity.vcxproj">
+      <Project>{5D3318CB-2841-3C1E-A20D-DDB69E220743}</Project>
+      <Name>unity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

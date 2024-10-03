@@ -56,13 +56,13 @@
  * PUBLIC FUNCTIONS
  * -------------------------------------------------------------- */
 
-U_WEAK int32_t uCellLocGetSystemDefault(uDeviceHandle_t cellHandle,
-                                        uint32_t *pGnssSystemTypesBitMap)
-{
-    (void) cellHandle;
-    (void) pGnssSystemTypesBitMap;
+// U_WEAK int32_t uCellLocGetSystemDefault(uDeviceHandle_t cellHandle,
+//                                         uint32_t *pGnssSystemTypesBitMap)
+// {
+//     (void) cellHandle;
+//     (void) pGnssSystemTypesBitMap;
 
-    return (int32_t) U_ERROR_COMMON_NOT_SUPPORTED;
-}
+//     return (int32_t) U_ERROR_COMMON_NOT_SUPPORTED;
+// }
 
 // End of file

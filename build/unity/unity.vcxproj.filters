@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\Unity\src\unity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\Unity\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61AB79D8-4A60-3222-8D40-EEFBA89A536C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

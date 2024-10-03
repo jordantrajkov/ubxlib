@@ -61,7 +61,7 @@ target_include_directories(ucpulib INTERFACE ${UCPULIB_INCLUDES} )
 message("Adding \"ubxlib\"...")
 
 # Tell everyone where the directory Unity is (used in testing)
-set(UNITY_SUBDIR "${UBXLIB_BASE}/../Unity" CACHE PATH "the path to the Unity directory")
+set(UNITY_SUBDIR "${UBXLIB_BASE}/Unity" CACHE PATH "the path to the Unity directory")
 message("CMake variable UNITY_SUBDIR will be \"${UNITY_SUBDIR}\"")
 
 # Set the ubxlib features to compile (all must be enabled at the moment)
@@ -100,7 +100,7 @@ set(UBXLIB_SRC_PORT
     ${UBXLIB_BASE}/port/platform/${UBXLIB_PLATFORM}/src/u_port_clib.c
     ${UBXLIB_BASE}/port/platform/${UBXLIB_PLATFORM}/src/u_port_private.c
     ${UBXLIB_BASE}/port/clib/u_port_clib_mktime64.c
-    ${UBXLIB_BASE}/port/clib/u_port_clib_strtok_r.c
+    ${UBXLIB_BASE}/port/clib/u_port_clib_strtok_r.c)
 set(UBXLIB_TEST_SRC_PORT
     ${UBXLIB_BASE}/port/platform/common/runner/u_runner.c)
 set(UBXLIB_PRIVATE_TEST_INC_PORT

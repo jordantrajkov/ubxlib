@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\src\u_at_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\at_client\src\u_at_client_stub_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\assert\src\u_assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\timeout\src\u_timeout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location_private_cloud_locate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location_stub_gnss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\location\src\u_location_stub_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\mqtt_client\src\u_mqtt_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\mqtt_client\src\u_mqtt_client_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\mqtt_client\src\u_mqtt_client_stub_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\http_client\src\u_http_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\http_client\src\u_http_client_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\http_client\src\u_http_client_stub_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_credential.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_credential_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_credential_stub_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_stub_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_tls_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\security\src\u_security_tls_stub_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\src\u_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\src\u_sock_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\sock\src\u_sock_stub_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\ubx_protocol\src\u_ubx_protocol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\spartn\src\u_spartn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\spartn\src\u_spartn_crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_hex_bin_convert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_linked_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_mempool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_ringbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\utils\src\u_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\dns\src\u_dns_server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\geofence\src\u_geofence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\debug_utils\src\u_debug_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\debug_utils\src\u_debug_utils_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\event_queue\u_port_event_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\mutex_debug\u_mutex_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\log_ram\u_log_ram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\common\log_ram\u_log_ram_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_ble_extmod_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_cell_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_gnss_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_wifi_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_serial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_serial_wrapped.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_cell_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_gnss_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_short_range_stub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\geofence\src\dummy\u_geofence_geodesic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_timezone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_resource.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_gpio_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_i2c_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_spi_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_named_pipe_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_ppp_default.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\u_port_board_cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_edm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_edm_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_pbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\short_range\src\u_short_range_sec_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_cfg_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_cfg_intmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_gap_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_gatt_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_intmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_nus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_sps_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\ble\src\u_ble_sps_intmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_captive_portal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_geofence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_loc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_mqtt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\wifi\src\u_wifi_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_ble_extmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_ble_intmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_wifi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_short_range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_fota.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_geofence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_loc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_mno_db.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_mqtt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_mux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_mux_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_net.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_ppp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_pwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_sec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_sec_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_sim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_stub_gnss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\cell\src\u_cell_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_dec_ubx_nav_hpposllh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_dec_ubx_nav_pvt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_geofence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_mga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_pos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_pwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_stub_cell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\u_gnss_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\gnss\src\lib_mga\u_lib_mga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\network\src\u_network_private_gnss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\common\device\src\u_device_private_gnss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_os.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_uart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_named_pipe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\src\u_port_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\clib\u_port_clib_mktime64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\clib\u_port_clib_strtok_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\clib\u_port_clib_gmtime_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JordanTrajkov\Desktop\ubxlibSARA\ubxlib\port\platform\windows\mcu\win32\runner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{61AB79D8-4A60-3222-8D40-EEFBA89A536C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

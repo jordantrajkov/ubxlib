@@ -1,0 +1,97 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"unity/MinSizeRel/unity.lib"
+			],
+			"targetId" : "unity::@e9bcf21850361af75531",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "library",
+			"destination" : "include/unity",
+			"paths" : 
+			[
+				"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity/src/unity.h",
+				"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity/src/unity_internals.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/unity",
+			"exportName" : "unityTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "unity::@e9bcf21850361af75531",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"unity/CMakeFiles/Export/80da942aa44c821c5569bae18496db2c/unityTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/unity",
+			"paths" : 
+			[
+				"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity/unityConfig.cmake",
+				"C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/unity/unityConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "unity",
+		"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity"
+	}
+}

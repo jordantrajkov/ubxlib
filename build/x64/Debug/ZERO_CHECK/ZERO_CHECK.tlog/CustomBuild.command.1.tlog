@@ -1,0 +1,10 @@
+^C:\USERS\JORDANTRAJKOV\DESKTOP\UBXLIBSARA\UBXLIB\BUILD\CMAKEFILES\C4768901C408D44371D545676246D3C8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner -BC:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build/runner_win32.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -628,9 +628,6 @@ int32_t uCellHttpOpen(uDeviceHandle_t cellHandle, const char *pServerName,
                                     // Free memory
                                     uPortFree(pHttpInstance);
                                 }
-                            } else {
-                                // Free memory
-                                uPortFree(pHttpInstance);
                             }
                         }
                         // Free temporary memory

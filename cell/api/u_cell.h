@@ -23,6 +23,7 @@
  * please keep #includes to your .c files. */
 
 #include "u_device.h"
+#include "u_cell_module_type.h"
 
 /** \addtogroup _cell _Cellular
  *  @{

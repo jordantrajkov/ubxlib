@@ -23,6 +23,9 @@
  * please keep #includes to your .c files. */
 
 #include "u_device.h"
+#include "u_gnss_type.h"
+#include "u_gnss_module_type.h"
+
 
 /** \addtogroup _GNSS _GNSS
  *  @{

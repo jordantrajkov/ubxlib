@@ -1,16 +1,38 @@
-cmake_minimum_required(VERSION 3.4)
+cmake_minimum_required(VERSION 3.5)
 
 project(runner_win32)
 
 # Get the generic cmake definitions for ubxlib
 include(../../../windows.cmake)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /WX-")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /WX- /W3")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/src")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/src")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/gnss/src")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/device/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/location/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/at_client/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/cell/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/device/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/network/api")
+include_directories("C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/common/sock/api")
 
 if (DEFINED ENV{UNITY_PATH})
     set(UNITY_PATH $ENV{UNITY_PATH} CACHE PATH "the path to the Unity directory")
 else()
-    set(UNITY_PATH "${UBXLIB_BASE}/../Unity" CACHE PATH "the path to the Unity directory")
+    # Adjusted the path since Unity is in the same directory as ubxlib
+    set(UNITY_PATH "${UBXLIB_BASE}/Unity" CACHE PATH "the path to the Unity directory")
 endif()
 message("UNITY_PATH will be \"${UNITY_PATH}\"")
+
+# Conditionally apply -Wno-error only for GCC/Clang compilers
+if (CMAKE_C_COMPILER_ID MATCHES "GNU|Clang")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-error")
+endif()
 
 set(UBXLIB_TEST_SRC_PORT
   ${UBXLIB_BASE}/port/platform/common/runner/u_runner.c)
@@ -24,6 +46,9 @@ set(UBXLIB_PRIVATE_TEST_INC_PORT
 # definition here which lets it evaluate to nothing.
 add_compile_options("-DUNITY_NORETURN=")
 add_subdirectory(${UNITY_PATH} unity)
+
+add_compile_options("-DU_AT_CLIENT_PRINT_WITH_TIMESTAMP")
+
 
 # Create a library containing the ubxlib tests
 # These files must be compiled as C++ so that the "runner" macro

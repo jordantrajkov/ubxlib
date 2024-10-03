@@ -1,0 +1,548 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "unity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-unity-Debug-42639099be4f8b123e66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "runner_win32",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-7ece58909c1d42a3d719.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e9bcf21850361af75531",
+					"jsonFile" : "target-ALL_BUILD-Debug-8cceeaa0f25014cbe568.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-482357b916b4d92d253c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib-Debug-b2de8f9efb7f04ff6a82.json",
+					"name" : "ubxlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test-Debug-f02c2fdc2f0099d6295e.json",
+					"name" : "ubxlib_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test_main-Debug-b7fc3bd82ce162d1dd9d.json",
+					"name" : "ubxlib_test_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e9bcf21850361af75531",
+					"jsonFile" : "target-unity-Debug-1d463ea37a9cf1a8b62a.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "unity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-unity-Release-9d1515066f480019c25d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "runner_win32",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-7ece58909c1d42a3d719.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e9bcf21850361af75531",
+					"jsonFile" : "target-ALL_BUILD-Release-8cceeaa0f25014cbe568.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-482357b916b4d92d253c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib-Release-68b71a8f1a77a1f1ce03.json",
+					"name" : "ubxlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test-Release-17a429c62c54d9721a62.json",
+					"name" : "ubxlib_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test_main-Release-63eebac500ace7dd3ef8.json",
+					"name" : "ubxlib_test_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e9bcf21850361af75531",
+					"jsonFile" : "target-unity-Release-819cabf3884cdd7ea014.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "unity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-unity-MinSizeRel-46b6775489a741a4cf23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "runner_win32",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7ece58909c1d42a3d719.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e9bcf21850361af75531",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8cceeaa0f25014cbe568.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-482357b916b4d92d253c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib-MinSizeRel-37e685a7fefbc7050f61.json",
+					"name" : "ubxlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test-MinSizeRel-d75daaeb6632c5723700.json",
+					"name" : "ubxlib_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test_main-MinSizeRel-0b2ebb1913e64338fcdd.json",
+					"name" : "ubxlib_test_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e9bcf21850361af75531",
+					"jsonFile" : "target-unity-MinSizeRel-93b96d3c61245ee068cd.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "unity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-unity-RelWithDebInfo-203754fd8f0f067c6423.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/Unity",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "runner_win32",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7ece58909c1d42a3d719.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e9bcf21850361af75531",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8cceeaa0f25014cbe568.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-482357b916b4d92d253c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib-RelWithDebInfo-78c2bcad047c691b2fa9.json",
+					"name" : "ubxlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test-RelWithDebInfo-b09ee02797b598d03f53.json",
+					"name" : "ubxlib_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ubxlib_test_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ubxlib_test_main-RelWithDebInfo-22f28fd465f8960c23cb.json",
+					"name" : "ubxlib_test_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e9bcf21850361af75531",
+					"jsonFile" : "target-unity-RelWithDebInfo-e18e5c1ea5b05ec8dc1c.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/build",
+		"source" : "C:/Users/JordanTrajkov/Desktop/ubxlibSARA/ubxlib/port/platform/windows/mcu/win32/runner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
